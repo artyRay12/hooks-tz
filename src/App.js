@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useReducer, useState, useEffect } from "react";
+import "./App.css";
+import Axios from "axios";
+import Table from "./Components/Table/Table";
+import reducer, { initialState } from "./Reducer/UsersReducer";
+import { Switch, Route } from "react-router-dom";
+import Login from "./Components/Login/Login";
+import TopBar from "./Components/TopBar/TopBar";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    /* 
+    if (token) {
+        Axios({
+            method: "get",
+            url: `${baseUrl}/api/v1/users/`,
+            headers: {
+                Authorization: `Token ${token}`,
+            },
+        })
+            .then((response) => {
+                //dispatch({type: 'PUT_DATA', payload: response.data})
+            })
+            .catch((error) => {
+                console.log(error);
+            });
+    } */
+
+    return (
+        <div className="App">
+            <div className="container">
+                <TopBar />
+                <Switch>
+                    <Route path="/" component={Table} exact />
+                    <Route path="/login" component={Login} />
+                </Switch>
+            </div>
+        </div>
+    );
 }
 
 export default App;
