@@ -1,0 +1,5 @@
+.row-item {
+    word-wrap: wrap;
+    word-break: break-all;
+    font-size: 14px
+}

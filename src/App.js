@@ -1,19 +1,17 @@
 import React from "react";
 import "./App.css";
-import Table from "./Components/Table/Table";
 import { Switch, Route } from "react-router-dom";
-import Login from "./Components/Login/Login";
-import TopBar from "./Components/TopBar/TopBar";
 import { ProtectedRoute } from "./route/ProtectedRoute";
+import LoginPage from "./Pages/LoginPage/LoginPage";
+import TablePage from "./Pages/TablePage/TablePage";
 
 function App() {
     return (
         <div className="App">
             <div className="container">
-                <TopBar />
                 <Switch>
-                    <ProtectedRoute path="/" component={Table} exact />
-                    <Route path="/login" component={Login} />
+                    <ProtectedRoute path="/" component={TablePage} exact />
+                    <Route path="/login" component={LoginPage} />
                 </Switch>
             </div>
         </div>
