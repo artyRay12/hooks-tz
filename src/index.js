@@ -7,7 +7,7 @@ import { UserContextProvider } from "./Reducer/userReducer";
 
 ReactDOM.render(
     <UserContextProvider>
-        <BrowserRouter basename="/hookz-tz">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <App />
         </BrowserRouter>
     </UserContextProvider>,
