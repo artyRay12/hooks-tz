@@ -11,7 +11,7 @@ function App() {
             <div className="container">
                 <Switch>
                     <ProtectedRoute path="/" component={TablePage} exact />
-                    <Route path="/login" component={LoginPage} />
+                    <Route path="/login/" component={LoginPage} />
                 </Switch>
             </div>
         </div>
