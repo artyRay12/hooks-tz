@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hooks-tz/static/css/main.fb083cb2.chunk.css",
-    "main.js": "/hooks-tz/static/js/main.2c1f17b3.chunk.js",
-    "main.js.map": "/hooks-tz/static/js/main.2c1f17b3.chunk.js.map",
+    "main.js": "/hooks-tz/static/js/main.2ca83245.chunk.js",
+    "main.js.map": "/hooks-tz/static/js/main.2ca83245.chunk.js.map",
     "runtime-main.js": "/hooks-tz/static/js/runtime-main.26ed8e7a.js",
     "runtime-main.js.map": "/hooks-tz/static/js/runtime-main.26ed8e7a.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/hooks-tz/static/css/2.f3cffc9e.chunk.css",
     "static/js/2.dcf48ac1.chunk.js": "/hooks-tz/static/js/2.dcf48ac1.chunk.js",
     "static/js/2.dcf48ac1.chunk.js.map": "/hooks-tz/static/js/2.dcf48ac1.chunk.js.map",
     "index.html": "/hooks-tz/index.html",
-    "precache-manifest.64cba9e5e2cba761b39d8d0790d57fea.js": "/hooks-tz/precache-manifest.64cba9e5e2cba761b39d8d0790d57fea.js",
+    "precache-manifest.671c0c8aaafb8d41374a0d52ff545dd5.js": "/hooks-tz/precache-manifest.671c0c8aaafb8d41374a0d52ff545dd5.js",
     "service-worker.js": "/hooks-tz/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/hooks-tz/static/css/2.f3cffc9e.chunk.css.map",
     "static/css/main.fb083cb2.chunk.css.map": "/hooks-tz/static/css/main.fb083cb2.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.f3cffc9e.chunk.css",
     "static/js/2.dcf48ac1.chunk.js",
     "static/css/main.fb083cb2.chunk.css",
-    "static/js/main.2c1f17b3.chunk.js"
+    "static/js/main.2ca83245.chunk.js"
   ]
 }
