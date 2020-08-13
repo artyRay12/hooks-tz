@@ -9,6 +9,7 @@ function App() {
     return (
         <div className="App">
             <div className="container">
+                Какая то жопа
                 <Switch>
                     <ProtectedRoute path="/" component={TablePage} exact />
                     <Route path="/login/" component={LoginPage} />
