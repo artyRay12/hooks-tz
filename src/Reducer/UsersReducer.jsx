@@ -10,7 +10,10 @@ export const initialState = {
 const reducer = (state, action) => {
     switch (action.type) {
         case "SORT_ASC":
-            return {};
+            return {
+                ...state,
+            };
+
         case "SORT_DESC":
             return {};
         case "PUT_DATA":

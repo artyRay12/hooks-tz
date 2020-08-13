@@ -3,8 +3,8 @@ import { useContext } from "react";
 import { UserContext } from "../../Reducer/userReducer";
 
 const TopBar = () => {
-    const [state] = useContext(UserContext);
-    return <div>{state.token ? "You logged" : "Your need login"}</div>;
+    const [{ token }] = useContext(UserContext);
+    return <div>{token && "You logged"}</div>;
 };
 
 export default TopBar;

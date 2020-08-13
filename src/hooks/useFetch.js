@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Axios from "axios";
 import useLocalStorage from "./useLocalStorage";
 
@@ -29,7 +29,7 @@ export default (url) => {
                 setIsLoading(false);
                 setError(err);
             });
-    }, [token, response, url, isLoading]);
+    }, [token, response, url, isLoading, options]);
 
     return [{ isLoading, response, error }, doFetch];
 };

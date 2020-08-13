@@ -1,0 +1,48 @@
+.auth-page {
+    outline: none;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.form-input {
+    color: #10debc;
+    background-color: #051e32;
+}
+
+.form-input:hover {
+    border: 1px solid #10debc;
+}
+
+.form-input:focus {
+    border: 1px solid #10debc;
+    color: #10debc;
+    background-color: #051e32;
+    box-shadow: 0;
+}
+
+.login-title {
+    color: #10debc;
+}
+
+.login-btn:hover {
+    background-color: #10debc;
+    border: 1px solid transparent;
+}
+
+.login-btn:focus {
+    box-shadow: 0;
+    border: none;
+    background-color: #10debc;
+}
+
+.error-text 
+{
+    text-align: left;
+    color: #be57d0;
+}
+
+.error-text>p:last-child {
+    height: 25px;
+}
