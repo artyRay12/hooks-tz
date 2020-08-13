@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/github.io/hooks-tz/static/css/main.fb083cb2.chunk.css",
+    "main.js": "/github.io/hooks-tz/static/js/main.aca57782.chunk.js",
+    "main.js.map": "/github.io/hooks-tz/static/js/main.aca57782.chunk.js.map",
+    "runtime-main.js": "/github.io/hooks-tz/static/js/runtime-main.d402221a.js",
+    "runtime-main.js.map": "/github.io/hooks-tz/static/js/runtime-main.d402221a.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/github.io/hooks-tz/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.dcf48ac1.chunk.js": "/github.io/hooks-tz/static/js/2.dcf48ac1.chunk.js",
+    "static/js/2.dcf48ac1.chunk.js.map": "/github.io/hooks-tz/static/js/2.dcf48ac1.chunk.js.map",
+    "index.html": "/github.io/hooks-tz/index.html",
+    "precache-manifest.228bf20de9e180b9107b47d6e00c803a.js": "/github.io/hooks-tz/precache-manifest.228bf20de9e180b9107b47d6e00c803a.js",
+    "service-worker.js": "/github.io/hooks-tz/service-worker.js",
+    "static/css/2.f3cffc9e.chunk.css.map": "/github.io/hooks-tz/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.fb083cb2.chunk.css.map": "/github.io/hooks-tz/static/css/main.fb083cb2.chunk.css.map",
+    "static/js/2.dcf48ac1.chunk.js.LICENSE.txt": "/github.io/hooks-tz/static/js/2.dcf48ac1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d402221a.js",
+    "static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.dcf48ac1.chunk.js",
+    "static/css/main.fb083cb2.chunk.css",
+    "static/js/main.aca57782.chunk.js"
+  ]
+}
